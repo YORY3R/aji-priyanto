@@ -1,0 +1,40 @@
+<!doctype html>
+<html translate="no" lang="en" data-theme="light" data-color="blue" data-font="sans-serif">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="application-name" />
+  <meta name="author" content="YORY3R" />
+  <meta name="creator" content="YORY3R" />
+  <meta name="description" />
+  <meta name="keywords" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="icon" />
+  <link rel="author" href="https://yory3r.github.io/" />
+   <script type="module" crossorigin src="/assets/index-CfIgFjdV.js"></script>
+   <link rel="modulepreload" crossorigin href="/assets/@vue-BTR0I7Fj.js">
+   <link rel="modulepreload" crossorigin href="/assets/vue-demi-Dq6ymT-8.js">
+   <link rel="modulepreload" crossorigin href="/assets/pinia-Yt-tHp7L.js">
+   <link rel="modulepreload" crossorigin href="/assets/@intlify-DCihH9S3.js">
+   <link rel="modulepreload" crossorigin href="/assets/vue-i18n-DidUZ75k.js">
+   <link rel="modulepreload" crossorigin href="/assets/vue-router-Bx16IfWh.js">
+   <link rel="modulepreload" crossorigin href="/assets/@mdi-DrwBYt5V.js">
+   <link rel="modulepreload" crossorigin href="/assets/mdi-vue-8pJpkj4D.js">
+   <link rel="stylesheet" crossorigin href="/assets/mdi-vue-B7rj0kwx.css">
+   <link rel="stylesheet" crossorigin href="/assets/index-BFwhzyN3.css">
+ <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+ <body>
+  <div id="app"></div>
+  <script setup lang="tsx">
+   const theme = localStorage.getItem('theme') || 'light';
+   const color = localStorage.getItem('color') || 'blue';
+   const lang = localStorage.getItem('lang') || 'en';
+   const font = localStorage.getItem('font') || 'sans-serif';
+
+   document.documentElement.setAttribute('data-theme', theme);
+   document.documentElement.setAttribute('data-color', color);
+   document.documentElement.setAttribute('lang', lang);
+   document.documentElement.setAttribute('data-font', font);
+  </script>
+ </body>
+</html>
